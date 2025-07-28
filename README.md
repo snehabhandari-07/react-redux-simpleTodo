@@ -18,49 +18,49 @@ It is built with my begineer understanding
 
 ## Redux Q&A – Beginner Notes
 
-    These are my own answers that helped me understand Redux Toolkit better while making this todo app 
+These are my own answers that helped me understand Redux Toolkit better while making this todo app 
 
 ---
 
-    Action is something that is happened
-    Reducers are the things that happen when a certain action takes place
+Action is something that is happened
+Reducers are the things that happen when a certain action takes place
 
 ---
 
 1.What is Redux?
 
-    Redux is a state management library which is used when your application becomes too complex and has a lot of states in it.
-    Let’s say your application has a states for different components and you want to share the info between the states, so normal React won’t allow it.
-    You can use Redux where all states are stored in one file which can be accessed by different components.
+Redux is a state management library which is used when your application becomes too complex and has a lot of states in it.
+Let’s say your application has a states for different components and you want to share the info between the states, so normal React won’t allow it.
+You can use Redux where all states are stored in one file which can be accessed by different components.
 
 ---
 
 2.What is Redux Toolkit and why use it?
 
-    Now when we build applications that are complex and have a lot of states in it, it is advisable to use Redux Toolkit with Redux to simplify the process.
-    Redux Toolkit gives you the power of mutability using Immer and also auto-generates actions for you.
+Now when we build applications that are complex and have a lot of states in it, it is advisable to use Redux Toolkit with Redux to simplify the process.
+Redux Toolkit gives you the power of mutability using Immer and also auto-generates actions for you.
 
 ---
 
 3.What is a slice in Redux Toolkit?
 
-    Slice is a bundle of actions and reducers related or used by a single component.
-    It contains state, initialState, and reducers with state and action.
+Slice is a bundle of actions and reducers related or used by a single component.
+It contains state, initialState, and reducers with state and action.
 
 ---
 
 4.How does Redux Toolkit handle immutability?
 
-    See the thing is, when writing normal React code, React does not allow us to change the state directly.
-    Each time we have to create a new copy and make changes to it.
-    But using Redux, we can mutate it directly because Redux Toolkit handles that part — like it creates a copy and makes changes to it.
+See the thing is, when writing normal React code, React does not allow us to change the state directly.
+Each time we have to create a new copy and make changes to it.
+But using Redux, we can mutate it directly because Redux Toolkit handles that part — like it creates a copy and makes changes to it.
 
 ---
 
 5.What does createSlice do?
 
-    createSlice creates a slice which has your state name, initialState, and reducers related to your single component.
-    This can be used in any file and they can access the store.
+createSlice creates a slice which has your state name, initialState, and reducers related to your single component.
+This can be used in any file and they can access the store.
 
 ---
 
