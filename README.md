@@ -22,7 +22,7 @@ These are my own answers that helped me understand Redux Toolkit better while ma
 
 ---
 
-Action is something that is happened
+Action is something that is happened &&
 Reducers are the things that happen when a certain action takes place
 
 ---
